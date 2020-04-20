@@ -1,0 +1,20 @@
+account_asset_credit_note
+==========================
+
+The account_asset_credit_note module of the Tryton application platform.
+
+Installing
+----------
+
+See INSTALL
+
+
+License
+-------
+
+See LICENSE
+
+Copyright
+---------
+
+See COPYRIGHT

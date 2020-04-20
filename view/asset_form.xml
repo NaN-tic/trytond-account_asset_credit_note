@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<data>
+    <xpath expr="//label[@name='value']" position="replace"/>
+    <xpath expr="/form/field[@name='value']" position="replace">
+        <group id="credit_note_values" col="4" colspan="2">
+            <label name="credit_note"/>
+            <field name="credit_note"/>
+            <label name="value"/>
+            <field name="value"/>
+        </group>
+    </xpath>
+</data>
