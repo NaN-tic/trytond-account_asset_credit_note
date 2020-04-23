@@ -3,12 +3,16 @@
 this repository contains the full copyright notices and license terms. -->
 <data>
     <xpath expr="//label[@name='value']" position="replace"/>
-    <xpath expr="/form/field[@name='value']" position="replace">
+    <xpath expr="//field[@name='value']" position="replace"/>
+    <xpath expr="//label[@name='residual_value']" position="replace"/>
+    <xpath expr="/form/field[@name='residual_value']" position="replace">
+        <label name="supplier_refund_invoice_line"/>
+        <field name="supplier_refund_invoice_line"/>
         <group id="credit_note_values" col="4" colspan="2">
-            <label name="credit_note"/>
-            <field name="credit_note"/>
             <label name="value"/>
             <field name="value"/>
+            <label name="residual_value"/>
+            <field name="residual_value"/>
         </group>
     </xpath>
 </data>

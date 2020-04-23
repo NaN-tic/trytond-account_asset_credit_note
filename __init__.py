@@ -7,4 +7,8 @@ from . import asset
 def register():
     Pool.register(
         asset.Asset,
+        asset.UpdateAssetStart,
         module='account_asset_credit_note', type_='model')
+    Pool.register(
+        asset.UpdateAsset,
+        module='account_asset', type_='wizard')

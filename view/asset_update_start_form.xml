@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<data>
+    <xpath expr="/form/field[@name='end_date']" position="after">
+        <label name="supplier_refund_invoice_line"/>
+        <field name="supplier_refund_invoice_line"/>
+        <field name="product"/>
+        <field name="company"/>
+    </xpath>
+</data>

@@ -2,6 +2,20 @@
 msgid ""
 msgstr "Content-Type: text/plain; charset=utf-8\n"
 
-msgctxt "field:account.asset,credit_note:"
-msgid "Credit Note"
-msgstr "Rectificativa"
+msgctxt "field:account.asset,supplier_refund_invoice_line:"
+msgid "Supplier Refund Invoice Line"
+msgstr "Línea de rectificativa de proveedor"
+
+#, fuzzy
+msgctxt "field:account.asset.update.start,company:"
+msgid "Company"
+msgstr "Empresa"
+
+#, fuzzy
+msgctxt "field:account.asset.update.start,product:"
+msgid "Product"
+msgstr "Producto"
+
+msgctxt "field:account.asset.update.start,supplier_refund_invoice_line:"
+msgid "Supplier Refund Invoice Line"
+msgstr "Línea de rectificativa de proveedor"
